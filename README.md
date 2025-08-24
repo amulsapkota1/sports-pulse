@@ -69,6 +69,8 @@ Sports Pulse is an AI-powered sports analytics project designed to process and a
 4. **Run All Cells**
 5. **Interact with the UI generated at the end**
 
+![MMA Pulse](./chat-ui.png)
+
 ## 🛠️ Dependencies and Tools Used
 
 - **Python 3.8+**
@@ -84,6 +86,7 @@ Sports Pulse is an AI-powered sports analytics project designed to process and a
 - orjson – fast JSON parsing
 - XGBoost – optional ML model support
 - Google Colab – cloud-based development environment
+![MMA Pulse Logo](./chat-ui.png)
 
 ## 👥 Team Members and Roles
 

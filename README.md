@@ -84,6 +84,10 @@ _Team members:_
 
 ## License
 
-Specify your license here (e.g., MIT).
+MIT License
+
+Copyright (c) 2025 NepHacks
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
 
 ---

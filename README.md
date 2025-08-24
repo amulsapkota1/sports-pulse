@@ -1,1 +1,8 @@
 # mmapulse
+
+langchain
+openai
+faiss-cpu
+transformers
+tqdm
+python-dotenv

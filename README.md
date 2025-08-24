@@ -4,12 +4,12 @@
 Sports Pulse is an AI-powered sports analytics project designed to process and analyze sports data using modern machine learning and natural language processing tools. The project aims to deliver actionable insights and predictions to sports enthusiasts, analysts, and organizations.
 
 ## Features
-
-- Uses [LangChain](https://github.com/hwchase17/langchain) for chain-based AI workflows
+- Cleaned and structured fight data from multiple sources
+- Retrieval-Augmented Generation (RAG) powered chatbot
 - Integrates [OpenAI](https://openai.com/) models
-- Implements vector search with [FAISS](https://github.com/facebookresearch/faiss)
+- Semantic search using [ChromaDB]([https://openai.com/](https://www.trychroma.com/)) and Sentence Transformers
 - Uses [Transformers](https://github.com/huggingface/transformers) for NLP
-- Supports progress tracking with `tqdm`
+- Supports voice input and transcription 
 - Manages environment variables with `python-dotenv`
 
 ## Prerequisites
@@ -51,6 +51,16 @@ Sports Pulse is an AI-powered sports analytics project designed to process and a
      python main.py
      ```
 
+## Set up and Run Instructions for Google Colab
+1. **Open the Notebook**
+   - Launch the project notebook: [SPORTPULSE.ipynb](https://colab.research.google.com/drive/14gHDT1qt1tC2KEriZP49omtyKScRYsvj?usp=sharing)
+2. **File Storage in Google Drive**
+   - Make sure master_data-rabindra-dhant.txt is placed in the root of your Google Drive.
+3. **Add Your OpenAI API Key**
+   - Store OpenAI API Key in the secrets tab (🔑) of Google Colab
+4. **Run All Cells**
+5. **Interact with the UI generated at the end**
+
 ## Project Structure
 
 ```
@@ -64,13 +74,18 @@ sports-pulse/
 ## Dependencies and Tools Used
 
 - **Python 3.8+**
-- [LangChain](https://github.com/hwchase17/langchain) – for building AI chains
-- [OpenAI](https://openai.com/) – large language models
-- [FAISS](https://github.com/facebookresearch/faiss) – fast similarity search
-- [Transformers](https://github.com/huggingface/transformers) – NLP models
-- [TQDM](https://github.com/tqdm/tqdm) – progress bars
-- [python-dotenv](https://github.com/theskumar/python-dotenv) – environment management
-- [gradio](https://www.gradio.app/) – User Interface
+- Pandas – data manipulation and analysis
+- NumPy – numerical computing
+- Matplotlib & Seaborn – data visualization
+- ChromaDB – vector database for semantic search
+- Sentence Transformers – text embeddings for retrieval
+- OpenAI API – GPT-based language generation
+- Gradio – interactive chatbot UI
+- Whisper – speech-to-text transcription
+- NetworkX – mind map and graph visualization
+- orjson – fast JSON parsing
+- XGBoost – optional ML model support
+- Google Colab – cloud-based development environment
 
 ## Team Members and Roles
 

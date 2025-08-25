@@ -92,7 +92,6 @@ Sports Pulse is an AI-powered sports analytics project designed to process and a
 _Team members:_
 
 - **Amul Sapkota** – AI Engineer/Presenter
-- **Bikash Mainali** – Developer/Designer, Documentation
 - **Om Nepal** – AI Engineer
 
 ---
